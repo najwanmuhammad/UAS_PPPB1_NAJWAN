@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="20dp"> <!-- Tambahkan margin ke atas -->
+        <shape>
+            <solid android:color="@color/white" />
+            <size android:height="4dp" /> <!-- Tinggi indikator -->
+        </shape>
+    </item>
+</layer-list>
+

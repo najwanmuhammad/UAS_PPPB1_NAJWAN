@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".admin.AdminEditMovieActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- LinearLayout untuk menampung semua elemen -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="32dp"
+                android:text="@string/editEvent" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/buttonback"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Back" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <!-- TextView Nama Acara -->
+                <TextView
+                    android:id="@+id/tv_label_judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Nama Acara"/>
+
+                <!-- Input Layout untuk Nama Acara -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/judul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="Nama Acara">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_judul"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- TextView Lokasi -->
+                <TextView
+                    android:id="@+id/tv_label_loc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Lokasi"/>
+
+                <!-- Input Layout untuk Lokasi -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/lokasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="Lokasi Acara">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_director"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Input Layout untuk Tanggal -->
+                <TextView
+                    android:id="@+id/tv_label_tanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Tanggal Acara"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="Tanggal Acara">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_tanggal"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Input Layout untuk Tanggal -->
+                <TextView
+                    android:id="@+id/tv_label_harga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Harga"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/harga"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="Harga">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_harga"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:inputType="none"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- TextView Deskripsi Acara -->
+                <TextView
+                    android:id="@+id/tv_label_deskripsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Deskripsi Acara"/>
+
+                <!-- Input Layout untuk Deskripsi -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="Deskripsi">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_deskripsi"
+                        android:layout_height="180dp"
+                        android:gravity="start|top"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- TextView Foto -->
+                <TextView
+                    android:id="@+id/tv_label_foto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="URL Foto"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/foto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    style="@style/InputLayout"
+                    android:hint="URL Foto">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/txt_foto"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:inputType="none"
+                        style="@style/EditText" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textAllCaps="false"
+                    android:text="Simpan Perubahan"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppinsbold"
+                    android:background="@drawable/blue_button"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

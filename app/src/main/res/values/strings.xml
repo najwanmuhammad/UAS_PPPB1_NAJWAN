@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UASPPAPBNajwan</string>
+    <string name="text_acc_confirmation">Sudah Punya Akun? <font color="#525BFF">Sign In</font></string>
+    <string name="text_new_member">Belum Punya Akun? <font color="#525BFF">Register</font></string>
+    <string name="screen_title_login">Login</string>
+    <string name="screen_title_register">Register</string>
+    <string name="text_confirmation">By Checking the box you agree to our <font color="#525BFF">Terms</font> and <font color="#525BFF">Conditions.</font></string>
+    <string name="checkbox_remember_me">Remember Me</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile"><font color="black">Your</font>  <font color="#42A5F5">Profile</font></string>
+    <string name="addEvent"><font color="black">Tambah</font>  <font color="#42A5F5">Acara</font></string>
+    <string name="editEvent"><font color="black">Edit</font>  <font color="#42A5F5">Acara</font></string>
+    <string name="favorites"><font color="black">My</font>  <font color="#42A5F5">Favorites</font></string>
+    <string name="manage"><font color="black">Kelola</font>  <font color="#42A5F5">Acara</font></string>
+</resources>

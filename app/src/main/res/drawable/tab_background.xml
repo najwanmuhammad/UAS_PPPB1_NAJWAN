@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/tab_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background saat tab aktif -->
+    <item android:drawable="@drawable/rounded_background_active" android:state_selected="true"/>
+    <!-- Background saat tab tidak aktif -->
+    <item android:drawable="@android:color/transparent"/>
+</selector>
