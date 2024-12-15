@@ -30,14 +30,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:src="@drawable/card"/>
+                android:src="@drawable/poster"/>
 
             <TextView
                 android:id="@+id/txt_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsmedium"
-                android:text="One Direction : Where We Are"
+                android:text="Interstellar"
                 android:textSize="10sp"
                 android:textStyle="bold"
                 android:layout_marginTop="5dp"/>
@@ -57,7 +57,7 @@
                     android:id="@+id/txt_loc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Gelora Bung Karno, Jakarta"
+                    android:text="Cristopher Nolan"
                     android:fontFamily="@font/poppins"
                     android:textSize="8sp"
                     android:padding="2dp"
@@ -92,29 +92,6 @@
                 xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
-                <ImageView
-                    android:id="@+id/img_price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_price"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerVertical="true"/>
-
-                <TextView
-                    android:id="@+id/txt_price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:padding="2dp"
-                    android:paddingStart="4dp"
-                    android:paddingEnd="4dp"
-                    android:text="IDR500.000"
-                    android:textColor="#EC441E"
-                    android:textSize="10sp"
-                    android:textStyle="bold"
-                    android:layout_toEndOf="@id/img_price"
-                    android:layout_centerVertical="true" />
 
                 <ImageView
                     android:id="@+id/btn_wishlist"

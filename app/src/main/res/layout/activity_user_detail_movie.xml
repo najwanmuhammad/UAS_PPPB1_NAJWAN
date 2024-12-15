@@ -41,7 +41,7 @@
                     android:fontFamily="@font/poppinsbold"
                     android:textColor="@color/black"
                     android:textSize="28sp"
-                    android:text="Event Insight" />
+                    android:text="Movie Insight" />
 
             </LinearLayout>
 
@@ -55,7 +55,7 @@
                 android:layout_marginBottom="5dp"
                 android:textSize="22sp"
                 android:fontFamily="@font/poppinsbold"
-                android:text="Coldplay : Music of the Spheres" />
+                android:text="Top Gun: Maverick" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -73,7 +73,7 @@
                     android:id="@+id/txt_director"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Gelora Bung Karno, Jakarta"
+                    android:text="Joseph Kosinski"
                     android:fontFamily="@font/poppinsmedium"
                     android:layout_marginTop="-4dp"
                     android:textColor="@color/black"
@@ -98,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="-4dp"
-                    android:text="November, 15 2023"
+                    android:text="May, 27 2022"
                     android:textColor="@color/black"
                     android:fontFamily="@font/poppinsmedium"
                     android:textSize="14sp"
@@ -111,7 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
-                android:src="@drawable/img_detail"/>
+                android:src="@drawable/detail"/>
 
 
             <TextView
@@ -132,7 +132,7 @@
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
-                android:text="Join us for an unforgettable experience as Coldplay takes you on a celestial adventure with their Music of the Spheres tour. From the moment the lights dim, you’ll be transported into a universe where music, technology, and artistry collide in spectacular harmony. Feel the energy surge as Coldplay performs their most iconic hits alongside mesmerizing visuals that push the boundaries of imagination." />
+                android:text="Set 30 years after its predecessor, it follows Maverick's return to the United States Navy Strike Fighter Tactics Instructor program (also known as U.S. Navy-Fighter Weapons School - TOPGUN), where he must confront his past as he trains a group of younger pilots, among them the son of Maverick's deceased best friend Lieutenant Nick Goose Bradshaw, USN.—Wrathzo." />
         </LinearLayout>
 
 

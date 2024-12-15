@@ -9,8 +9,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="profile"><font color="black">Your</font>  <font color="#42A5F5">Profile</font></string>
-    <string name="addEvent"><font color="black">Tambah</font>  <font color="#42A5F5">Acara</font></string>
-    <string name="editEvent"><font color="black">Edit</font>  <font color="#42A5F5">Acara</font></string>
+    <string name="addEvent"><font color="black">Tambah</font>  <font color="#42A5F5">Film</font></string>
+    <string name="editEvent"><font color="black">Edit</font>  <font color="#42A5F5">Film</font></string>
     <string name="favorites"><font color="black">My</font>  <font color="#42A5F5">Favorites</font></string>
-    <string name="manage"><font color="black">Kelola</font>  <font color="#42A5F5">Acara</font></string>
+    <string name="manage"><font color="black">Kelola</font>  <font color="#42A5F5">Film</font></string>
 </resources>

@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/logo2" />
+            android:src="@drawable/movie" />
 
         <!-- Judul -->
         <TextView
@@ -37,7 +37,7 @@
             android:fontFamily="@font/poppinsbold"
             android:textColor="@color/primary"
             android:textSize="16sp"
-            android:text="Klik disini untuk tambah acara" />
+            android:text="Klik disini untuk tambah film" />
 
         <!-- RecyclerView -->
         <androidx.recyclerview.widget.RecyclerView

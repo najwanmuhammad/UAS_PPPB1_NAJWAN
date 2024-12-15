@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/logo2"/>
+                android:src="@drawable/movie"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -59,7 +59,7 @@
                     android:textSize="15sp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Nama Acara"/>
+                    android:text="Judul Film"/>
 
                 <!-- Input Layout untuk Nama Acara -->
                 <com.google.android.material.textfield.TextInputLayout
@@ -68,14 +68,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     style="@style/InputLayout"
-                    android:hint="Nama Acara">
+                    android:hint="Judul Film">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_judul"
                         style="@style/EditText" />
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- TextView Lokasi -->
+                <!-- TextView Director -->
                 <TextView
                     android:id="@+id/tv_label_loc"
                     android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                     android:textSize="15sp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/poppinsmedium"
-                    android:text="Lokasi"/>
+                    android:text="Director"/>
 
                 <!-- Input Layout untuk Lokasi -->
                 <com.google.android.material.textfield.TextInputLayout
@@ -94,7 +94,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     style="@style/InputLayout"
-                    android:hint="Lokasi Acara">
+                    android:hint="Director">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_director"
@@ -111,7 +111,7 @@
                     android:textSize="15sp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/poppins"
-                    android:text="Tanggal Acara"/>
+                    android:text="Tanggal Rilis"/>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tanggal"
@@ -119,42 +119,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     style="@style/InputLayout"
-                    android:hint="Tanggal Acara">
+                    android:hint="Tanggal Rilis">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_tanggal"
                         style="@style/EditText" />
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <!-- Input Layout untuk Tanggal -->
-                <TextView
-                    android:id="@+id/tv_label_harga"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:gravity="center"
-                    android:textSize="15sp"
-                    android:layout_marginBottom="5dp"
-                    android:fontFamily="@font/poppins"
-                    android:text="Harga"/>
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/harga"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    style="@style/InputLayout"
-                    android:hint="Harga">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/txt_harga"
-                        android:focusable="false"
-                        android:clickable="true"
-                        android:inputType="none"
-                        style="@style/EditText" />
-                </com.google.android.material.textfield.TextInputLayout>
-
-                <!-- TextView Deskripsi Acara -->
+                <!-- TextView Deskripsi -->
                 <TextView
                     android:id="@+id/tv_label_deskripsi"
                     android:layout_width="wrap_content"
@@ -164,7 +137,7 @@
                     android:textSize="15sp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/poppins"
-                    android:text="Deskripsi Acara"/>
+                    android:text="Deskripsi"/>
 
                 <!-- Input Layout untuk Deskripsi -->
                 <com.google.android.material.textfield.TextInputLayout
@@ -192,7 +165,7 @@
                     android:textSize="15sp"
                     android:layout_marginBottom="5dp"
                     android:fontFamily="@font/poppins"
-                    android:text="URL Foto"/>
+                    android:text="Poster Film"/>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/foto"
@@ -200,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     style="@style/InputLayout"
-                    android:hint="URL Foto">
+                    android:hint="URL Poster">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/txt_foto"

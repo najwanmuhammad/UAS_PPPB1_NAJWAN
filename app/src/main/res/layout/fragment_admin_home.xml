@@ -18,7 +18,7 @@
             android:id="@+id/logo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/logo2"
+            android:src="@drawable/movie"
             android:layout_alignParentStart="true" />
 
         <androidx.appcompat.widget.AppCompatImageButton
@@ -48,40 +48,8 @@
         android:textColor="@color/primary"
         android:fontFamily="@font/poppinsbold"
         android:textSize="32sp"
-        android:text="Trending Events" />
+        android:text="Trending Movies" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:layout_width="130dp"
-            android:layout_height="40dp"
-            android:layout_marginEnd="10dp"
-            android:text="Music"
-            android:textColor="@color/black"
-            android:fontFamily="@font/poppinsmedium"
-            android:backgroundTint="#EDE9FF" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:textColor="@color/black"
-            android:layout_marginEnd="10dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Exhibition"
-            android:backgroundTint="#FFF5D7"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:text="Theater"
-            android:fontFamily="@font/poppinsmedium"
-            android:textColor="@color/black"
-            android:backgroundTint="#E4FFEA" />
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/insight"
@@ -92,7 +60,7 @@
         android:fontFamily="@font/poppinsmedium"
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
-        android:text="Trending Events"/>
+        android:text="Trending Movies"/>
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -105,22 +73,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/caro1"/>
+                android:src="@drawable/mov1"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/caro2"/>
+                android:src="@drawable/mov2"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/caro1"/>
+                android:src="@drawable/mov1"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/caro2"/>
+                android:src="@drawable/mov2"/>
         </LinearLayout>
     </HorizontalScrollView>
 
@@ -133,7 +101,7 @@
         android:fontFamily="@font/poppinsmedium"
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
-        android:text="Events Near You"/>
+        android:text="Movies Near You"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/card_admin"
